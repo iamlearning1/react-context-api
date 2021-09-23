@@ -8,17 +8,18 @@ import Transaction from './components/Transaction';
 import { Provider } from './context/state';
 
 import './App.css';
+/// Test
 
 function App() {
   return (
     <Provider>
-     <Header>Expense Tracker</Header>
-     <div className="container">
-      <Balance></Balance>
-      <Expenses></Expenses>
-      <List></List>
-      <Transaction></Transaction>
-     </div>
+      <Header>Expense Tracker</Header>
+      <div className='container'>
+        <Balance></Balance>
+        <Expenses></Expenses>
+        <List></List>
+        <Transaction></Transaction>
+      </div>
     </Provider>
   );
 }
